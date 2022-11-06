@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="asset/css/output.css" />
+  <title>Manage Landing Page</title>
+</head>
+
+<body class="bg-black font-body">
+  <!-- Main Header Where i will put my NavBar -->
+  <header class="bg-white">
+    <!-- Nav Bar -->
+    <nav class="relative mx-auto">
+      <!-- flex  -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#top">
+          <img class="flex justify-start object-contain h-12 w-52" src="/asset/img/logo.svg" alt="Icandy Desgin Logo">
+        </a>
+        <!-- Manu Iteams -->
+        <div class="hidden md:flex space-x-12 p-3 px-12 pt-2">
+          <button href="#">Our Work</button>
+          <!--<a href="#">sub</a>
+              <a href="#">sub</a>
+              <a href="#">sub</a>-->
+          <button href="#">About</button>
+          <button href="#">News</button>
+          <button href="#">Team</button>
+          <!-- Contact Button -->
+          <a href="#" class="hidden md:flex p-3 px-6 pt-2 bg-icandyOrange baseline">Contact</a>
+        </div>
+        <!-- Hamburger icon-->
+      </div>
+      <!-- Mobile Menu -->
+    </nav>
+  </header>
+
+  <main>
+    <!-- Gallery Header -->
+    <div class="flex md:flex-row items-center px-6 mx-auto space-y-0 md:space-y-0 font-">
+
+      <div class="flex md:flex-row justify-start mx-auto mb-32 space-y-12 md:w-1/2">
+        <h1 class="text-white text-4xl font-bold font-heading">Gallery</h1>
+      </div>
+
+      <div class=" flex md:flex-row justify-end px-6 mx-auto md:space-y-0 flex-col mb-32 space-y-12 md:w-1/2">
+        <a href="#" class="hidden md:flex p-3 px-6 pt-2 bg-icandyOrange baseline ">Discover Our Gallery</a>
+      </div>
+    </div>
+
+    <section>
+      
+      <div class="mx-auto lg:pt-24 lg:px-32">
+        <div class="flex flex-wrap -m-1 md:-m-2">
+
+          <div class="flex flex-wrap w-1/4">
+
+            <div class="w-full p-1 md:p-2">
+              <img alt="gallery 1" class="block object-cover object-center w-full h-full" src="/asset/img/lion.jpeg">
+            </div>
+            <div class="w-full p-1 md:p-2">
+              <img alt="gallery 3" class="block object-cover object-center w-full h-full" src="/asset/img/flamingo.jpeg">
+            </div>
+          </div>
+
+          <div class="flex flex-wrap w-2/4">
+
+            <div class="w-full p-1 md:p-2">
+              <img alt="gallery 4" class="block object-cover object-center w-full h-full" src="/asset/img/elephant.jpeg">
+            </div>
+          </div>
+          <div class="flex flex-wrap w-1/4">
+
+            <div class="w-full p-1 md:p-2">
+              <img alt="gallery 5" class="block object-cover object-center w-full h-full" src="/asset/img/giraffe.jpeg">
+            </div>
+          </div>
+    </section>
+  </main>
+
+  <script src="/asset/js/script.js"></script>
+
+</body>
+
+</html>
