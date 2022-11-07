@@ -4,17 +4,18 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        sm: '480px',
+        sm: '640px',
         md: '768px',
-        lg: '976px',
-        xl: '1440px',
+        lg: '1080px',
+        xl: '1440px'
       },
       colors: {
         icandyOrange: '#F6B600',
         icandyblack: '#151515'
       },
       fontFamily: {
-        heading: ['Oswald', 'Open Sans']
+        heading: ['Oswald'],
+        body: ['Open Sans']
       }
     },
   },
